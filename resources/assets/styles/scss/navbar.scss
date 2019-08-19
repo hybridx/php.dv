@@ -1,0 +1,102 @@
+//----------------------Start navbar------------------------------------------------
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin: auto;
+    width: 100%;
+    background-color: #3d3d3d24;
+    font-family: 'Montserrat', sans-serif;
+    position: sticky;
+    top: 0;
+    .nav-header {
+        display: inline;
+        .nav-title {
+            display: inline-block;
+            font-size: 22px;
+            font-weight: 400;
+            color: #404040;
+            padding: 10px 10px 10px 10px;
+        }
+    }
+    body {
+        transition-timing-function: ease;
+    }
+    .nav-btn {
+        display: none;
+    }
+    .nav-links {
+        display: inline;
+        font-size: 13px;
+        font-weight: 600;
+        a {
+            display: inline-block;
+            padding: 13px 10px 13px 10px;
+            text-decoration: none;
+            color: #303030;
+        }
+        a:hover {
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+    }
+    #nav-check {
+        display: none;
+    }
+}
+
+@media (max-width:1024px) {
+    .nav {
+        display: flex;
+        justify-content: start;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(1, 1, 1, 0.45);
+    }
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+        background-color: rgba(6, 6, 6, 0.35);
+    }
+    .nav>.nav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid rgb(44, 44, 44);
+    }
+    .nav>.nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: rgb(253, 253, 253);
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+    }
+    .nav>.nav-links>a {
+        display: block;
+        width: 100%;
+    }
+    .nav>#nav-check:not(:checked)~.nav-links {
+        height: 0px;
+    }
+    .nav>#nav-check:checked~.nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
+}
+
+//----------------------End Navbar------------------------------------------------

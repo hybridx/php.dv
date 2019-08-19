@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #353535f5;
+    color: #cbcbcb;
+    height: 3em;
+    ul {
+        margin: 0;
+        padding: 0;
+        display: inherit;
+        list-style: none;
+        li {
+            padding: 10px;
+            a {
+                color: #ffffffb8;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:450px) {
+    .footer {
+        margin: 0;
+        display: grid;
+        height: 5em;
+        ul {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

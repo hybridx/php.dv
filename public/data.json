@@ -1,0 +1,6 @@
+{
+    "host": "localhost",
+    "dbname": "php_dv",
+    "user": "root",
+    "pass": "root"
+}
