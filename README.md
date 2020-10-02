@@ -18,10 +18,10 @@ PHP Training - Using composer, gulp
 
 ##  Requirements
 
-* PHP >= 7.3;
-* Composer (Tool for dependency management in PHP);
-* Laravel (Web application framework);
-* NPM (Node Package Manager);
+* PHP >= 7.3
+* Composer (Tool for dependency management in PHP)
+* Laravel (Web application framework)
+* NPM (Node Package Manager)
 * Database : MySQL
 
 ## Install dependencies
@@ -45,8 +45,8 @@ composer create-project laravel/laravel --prefer-dist
 ```
 
 ## FYI
-http://www.darwinbiler.com/how-to-install-laravel-on-wamp-for-beginners/;
-https://getcomposer.org/doc/00-intro.md;
+http://www.darwinbiler.com/how-to-install-laravel-on-wamp-for-beginners/
+https://getcomposer.org/doc/00-intro.md
 https://laravel.com/docs/8.x/installation
 
 ## Author
