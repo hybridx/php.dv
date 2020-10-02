@@ -18,11 +18,11 @@ PHP Training - Using composer, gulp
 
 ##  Requirements
 
-PHP >= 7.3;
-Composer (Tool for dependency management in PHP);
-Laravel (Web application framework);
-NPM (Node Package Manager);
-Database : MySQL
+* PHP >= 7.3;
+* Composer (Tool for dependency management in PHP);
+* Laravel (Web application framework);
+* NPM (Node Package Manager);
+* Database : MySQL
 
 ## Install dependencies
 ```sh
