@@ -29,25 +29,19 @@ PHP Training - Using composer, gulp
 npm install
 ```
 
-Laravel
-```sh
-composer global require laravel/installer
-```
-
 (To run composer properly you will need OpenSSL extension.Make sure you have openssl extension in php.ini file)
 ```sh
 composer update
 ```
 
-Create new project with laravel:
-```sh
-composer create-project laravel/laravel --prefer-dist
-```
+## Run 
+* Add a Virtual Host on your local sever with name **_phpdv_** and folder path of your index file.
+* Restart DNS if required.
+* Navigate to http://phpdv/ in browser and voilà!
+
 
 ## FYI
-http://www.darwinbiler.com/how-to-install-laravel-on-wamp-for-beginners/
 https://getcomposer.org/doc/00-intro.md
-https://laravel.com/docs/8.x/installation
 
 ## Author
 
