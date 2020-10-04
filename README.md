@@ -20,11 +20,11 @@ PHP Training - Using composer, gulp
 
 * PHP >= 7.3
 * Composer (Tool for dependency management in PHP)
-* Laravel (Web application framework)
 * NPM (Node Package Manager)
 * Database : MySQL
 
 ## Install dependencies
+
 ```sh
 npm install
 ```
@@ -34,10 +34,9 @@ npm install
 composer update
 ```
 
-## Run 
-* Add a Virtual Host on your local sever with name **_phpdv_** and folder path of your index file.
-* Restart DNS if required.
-* Navigate to http://phpdv/ in browser and voilà!
+## To run 
+
+Add a Virtual Host on your local sever with name **_phpdv_** and folder path of your index file. Restart DNS if required. Navigate to http://phpdv/ in browser and voilà!
 
 
 ## FYI
