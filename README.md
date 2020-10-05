@@ -36,7 +36,9 @@ composer update
 
 ## To run 
 
-Add a Virtual Host on your local sever with name **_phpdv_** and folder path of your index file. Restart DNS if required. Navigate to http://phpdv/ in browser and voilà!
+* Add a Virtual Host on your local sever with name **_php.dv_** and folder path of your index file.
+* Restart DNS if required.
+* Navigate to http://php.dv/ in browser and voilà!
 
 
 ## FYI
